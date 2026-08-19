@@ -1,0 +1,27 @@
+# Raw & processed satellite data
+data/
+*.tif
+*.tiff
+*.nc
+*.h5
+*.hdf
+*.tar.gz
+*.zip
+
+# Authentication / Session cookies / Secrets
+*.pkl
+*.env
+.env.*
+nasa_cookies.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# OS Files
+.DS_Store
+Thumbs.db
